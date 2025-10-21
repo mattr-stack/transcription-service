@@ -1,0 +1,49 @@
+# --- Core runtime ---
+whisperx==3.3.4
+faster-whisper==1.0.1
+numpy==1.26.4
+typing_extensions==4.12.2
+psutil==5.9.8
+accelerate==0.30.1
+
+# --- Transformers / Hugging Face ---
+transformers==4.39.3
+huggingface-hub==0.23.4
+
+# --- Web server ---
+flask==2.3.3
+gunicorn==21.2.0
+
+# --- spaCy NLP (model installed via wheel URL) ---
+spacy==3.7.4
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# --- Google APIs (OAuth flow + Drive/Docs) ---
+google-api-python-client==2.130.0
+google-auth==2.33.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-core==2.25.1
+googleapis-common-protos==1.70.0
+protobuf==4.25.3
+httplib2==0.22.0
+
+# --- Airtable ---
+pyairtable==1.5.0
+
+# --- Misc utils ---
+requests==2.32.3
+Pillow==10.4.0
+pystray==0.19.4
+pydub==0.25.1
+python-dotenv==1.0.1
+pipdeptree==2.23.0
+
+# --- Optional diarization stack ---
+pyannote.audio==3.3.2
+lightning==2.3.0
+pydantic==2.8.2
+rich==13.7.1
+omegaconf==2.3.0
+soundfile==0.12.1
+
